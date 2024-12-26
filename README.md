@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/src/hyprnez.png" alt="Logo" width="200"/>
+  <img src="/src/hyprnex.png" alt="Logo" width="200"/>
 </p>
 
 
