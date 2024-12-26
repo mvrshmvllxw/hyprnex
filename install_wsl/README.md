@@ -215,7 +215,7 @@ starship
 
     sudo pacman -S starship
 
-    curl -o ~/.config/starship.toml https://raw.githubusercontent.com/mvrshmvllxw/hyprnez/main/install_wsl/starship.toml
+    curl -o ~/.config/starship.toml https://raw.githubusercontent.com/mvrshmvllxw/hyprnex/main/install_wsl/starship.toml
 
     or copy (cp ~/Downloads/starship.toml ~/.config/)
 

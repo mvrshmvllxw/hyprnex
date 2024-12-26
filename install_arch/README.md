@@ -61,3 +61,36 @@ or
 > exit
 
 > reboot
+
+### Preparation (Wi-Fi)
+
+Now let's say you just installed Arch with Hyprland and booted up. Use `Win+Q` to open Kitty (terminal), `Win+C` to close window and `Win+1`, `Win+2`... to change desktop. Press `Enter` in Kitty (several times) if a warning bothers you.
+
+If you need Wi-Fi, connect first. Ethernet should work automatically.
+
+```bash
+> nmcli dev wifi
+# replace SID_NAME and WIFI_PASSWORD
+> nmcli dev wifi connect SSID_NAME password WIFI_PASSWORD
+# check status
+> nmcli dev status
+# for disconnect
+> nmcli dev disconnect wlan0
+# if got any errors try
+> sudo systemctl restart NetworkManager
+```
+
+### Preparation (Git)
+
+Once you have connected to the Internet install Git:
+
+> sudo pacman -Sy git
+
+If you got any errors try:
+
+```
+> gpg --refresh-keys
+> pacman-key --init
+> pacman-key --populate archlinux
+> pacman -Syu archlinux-keyring
+```

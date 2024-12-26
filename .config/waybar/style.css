@@ -14,9 +14,9 @@ window#waybar {
 
 #workspaces button {
     padding: 5px;
-    color: #555869;
+    color: #363840;
     margin-right: 0px;
-    border-radius: 20px;
+    border-radius: 28px;
     transition: background 0.4s cubic-bezier(.55,-0.68,.48,1.682), color 0.4s cubic-bezier(.55,-0.68,.48,1.682);
 }
 #workspaces button.active {
@@ -46,8 +46,11 @@ window#waybar {
     padding-left: 5px;
     margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
+    border-top: solid 2px #fff;
+    border-left: solid 2px #fff;
+    border-bottom: solid 2px #fff;
 }
 
 #clock,
@@ -61,7 +64,9 @@ window#waybar {
     padding: 0px 12px;
     margin: 3px 0px;
     margin-top: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+    border-top: solid 2px #fff;
+    border-bottom: solid 2px #fff;
     /* border-top: 1px solid #9393c6;  */
 }
 
@@ -70,6 +75,7 @@ window#waybar {
     border-radius: 0 20px 20px 0;
     margin-left: 0px;
     border-right: 0px;
+    border-right: solid 2px #fff;
 }
 
 #pulseaudio {

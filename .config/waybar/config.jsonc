@@ -8,6 +8,7 @@
     "passthrough": false,
     "gtk-layer-shell": true,
     "reload_style_on_change": true,
+    "height": 48,
  
     "modules-center": [
         "hyprland/workspaces",
@@ -29,7 +30,7 @@
 
     "tray": {
         "icon-size": 16,
-        "spacing": 10
+        "spacing": 10,
     },
 
     "clock": {
